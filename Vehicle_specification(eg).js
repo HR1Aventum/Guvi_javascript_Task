@@ -1,4 +1,10 @@
- var Dimensions = {
+/*
+Check screenshot(19) for refrence image 
+
+
+*/
+
+var Dimensions = {
   Overall_length : "3,500 mm",
   Overall_width : "1,600 mm",
   Overall_height : "1,490 mm",
