@@ -56,3 +56,27 @@ var Engine = {
    kerb_weight_min:"860-880",
    Gross_vehicle_Weight:"1,320",
 };
+
+/*1.Write a program to find the data types of a variable individually;
+  2.Convert specifications given below in image to Javascript Object : check screenshot
+*/
+
+// 
+var Contacts = {
+    first : 'Rohan',
+    last : 'Arya',
+};
+var T_of = [
+    typeof null,
+    typeof 6,
+    typeof 0.95,
+    typeof undefined,
+    typeof 'Hey',
+    typeof 'class',
+    typeof Contacts,
+    ];
+for (let type of T_of)
+{
+    console.log(type);
+}
+console.log(typeof T_of);               //Ques1 :-Write a program to find the data types of a variable individually;
